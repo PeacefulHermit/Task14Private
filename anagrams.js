@@ -14,6 +14,6 @@ function sortAlphabets(text) {
 function runAnagrams() {
 	var a = document.getElementById('anagramWord1').value;
 	var b = document.getElementById('anagramWord2').value;
-	var result = isAnagram(a, b);
+	var result = isAnagram(a.trim(), b.trim());
 	document.getElementById('resultAnagrams').innerHTML = result;
 }
