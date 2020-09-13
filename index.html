@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+
+<html>
+
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Task 14</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<table>
+		<tr><td>		
+			<h2>Part 1</h2>	
+			<form action="" >
+				<h3>1) Square Equation</h3>
+				<input type="number" id="a" placeholder="a"> x <sup>2</sup> +
+				<input type="number" id="b" placeholder="b"> x +
+				<input type="number" id="c" placeholder="c"> = 0
+				<br><br><input type="button" value="Solve" onclick="run();">
+			</form>	
+			<div type="resultDiv" id="resultDiv">
+				<h2>Reuslt:</h2>
+				<div type="result" id="result"></div>
+			</div>
+			<script src="SqEq.js"></script>
+		</td></tr>
+
+		<tr><td>	
+			<h3>2) Prime numbers</h3>		
+			<form action="" >
+				<input type="number" id="x_prime" placeholder="x">				
+				<br><br><input type="button" value="Is it prime?" onclick="runPrime();">
+			</form>	
+			<div type="resultDiv" id="resultPrimeDiv">
+				<h4>Reuslt:</h4>
+				<div type="result" id="resultPrime"></div>
+			</div>
+			<script src="prime.js"></script>
+		</td></tr>
+
+		<tr><td>
+			<h3>3) Sum</h3>
+			<form action="" >
+				<input type="number" id="n_sum" placeholder="n">				
+				<br><br><input type="button" value="Calculate" onclick="runSum();">
+			</form>	
+			<div type="resultDiv" id="resultSumDiv">
+				<h4>Reuslt:</h4>
+				<div type="result" id="resultSum"></div>
+			</div>
+			<script src="sum.js"></script>
+		</td></tr>
+
+		<tr><td>
+			<h3>4) Mirror</h3>
+			<form action="" >
+				<input type="number" id="x_mirror" placeholder="x">				
+				<br><br><input type="button" value="Mirror" onclick="runMirror();">
+			</form>	
+			<div type="resultDiv">
+				<h4>Reuslt:</h4>
+				<div type="result" id="resultMirror"></div>
+			</div>
+			<script src="mirror.js"></script>
+		</td></tr>
+	</table>
+
+	<table>
+		<tr><td>
+			<h2>Part 2</h2>	
+			<h3>1) Split array into two arrays</h3>
+			<p>Enter numbers separated by commas. For example: 1, -2, 3</p>
+			<form action="" >
+				<input type="text" id="sortZeroArray" placeholder="A">				
+				<br><br><input type="button" value="Sort (bellow/upper zero)" onclick="runSortZero();">
+			</form>	
+			<div type="resultDiv">
+				<h4>Reuslt:</h4>
+				<div type="result" id="resultSortZero"></div>
+			</div>
+			<script src="arraySortZero.js"></script>
+		</td></tr>
+
+		<tr><td>
+			<h3>2) Count duplicate value in an array</h3>
+			<p>Enter numbers separated by commas. For example: 1, 2, 2</p>
+			<form action="" >
+				<input type="text" id="countDuplicates" placeholder="A">				
+				<br><br><input type="button" value="Count it" onclick="runDuplicates();">
+			</form>	
+			<div type="resultDiv">
+				<h4>Reuslt:</h4>
+				<div type="result" id="resultDuplicates"></div>
+			</div>
+			<script src="duplicates.js"></script>
+		</td></tr>
+
+		<tr><td>
+			<h3>3) Anagrams finder</h3>		
+			<form action="" >
+				<input type="text" id="anagramWord1" placeholder="melon">
+				<input type="text" id="anagramWord2" placeholder="lemon">					
+				<br><br><input type="button" value="Count it" onclick="runAnagrams();">
+			</form>	
+			<div type="resultDiv">
+				<h4>Reuslt:</h4>
+				<div type="result" id="resultAnagrams"></div>
+			</div>
+			<script src="anagrams.js"></script>
+		</td></tr>
+	</table>
+
+</body>
+
+
+</html>

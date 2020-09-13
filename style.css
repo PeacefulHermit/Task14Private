@@ -1,0 +1,44 @@
+body {
+	text-align: center;
+}
+
+
+table {
+	
+	border-style: solid;
+	width: 100%;
+	padding: 20px 10% ;
+}
+	
+tr, td {
+
+	border-style: dotted;
+	text-align: center;
+	padding: 10px;
+}
+
+div[type="resultDiv"] {
+
+	border-style: inset;
+	text-align: center;
+	
+}
+
+
+div[type="result"] {
+
+	font-size: 16px;
+	text-align: center;
+}
+
+input[type="button"] {
+	background: #009f00;
+	padding: 10px 35px;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 6px;
+}
+
+input[type="button"]:hover {
+	opacity: 0.8;
+}
